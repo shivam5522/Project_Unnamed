@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Poppins';
@@ -259,7 +262,7 @@ body{
 
 .title_text{
     text-align: center;
-    padding-top: 1%;
+    top: 5rem;
     font-size: 10vh;
     color: #F8F5F2;
     font-weight: bolder;
@@ -303,7 +306,7 @@ body{
  
  .click,.links {
      padding: 12px;
-     font-size: 2em;
+     font-size: 1.75rem;
      font-family: 'Poppins';
      border: none;
      outline: none;
