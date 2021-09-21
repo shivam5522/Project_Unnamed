@@ -11,29 +11,18 @@ body{
 
 .area {
     background: #45526c;
-
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
-
     width: 100%;
-
     height: 100vh;
-
-
 }
 
 .circles {
     position: absolute;
-
     top: 0;
-
     left: 0;
-
     width: 100%;
-
     height: 100%;
-
     overflow: hidden;
-
 }
 
 .circles li {
@@ -363,8 +352,9 @@ body{
  }
 
  .cs_title{
+     padding-top: 2%;
      width: 100%;
-     height: 50vh;
+     height: 30vh;
      /* background-color: chocolate; */
      font-size: 14vh;
      text-align: right;
@@ -397,19 +387,47 @@ body{
      overflow: hidden;
      z-index: 0;
      opacity: 0.6;
+     background-repeat: no-repeat;
      
  }
 
  @media (max-width:838px){
      .cs_blob1{
-         height: 25vh;
+         height: 40vh;
+         width: 40vw;
          background-repeat: no-repeat;
      }
  }
 
 
- .name_cs {
+.name_cs {
     z-index: 4;
     position: absolute;
     padding-left: 15vw;
   }
+
+.cs_main_section{
+    height: 70vh;
+    width: 100%;
+}
+
+.main_section_image{
+    height: 70vh;
+    width: 50vw;
+}
+
+.cs_blob2{
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 70vw;
+    position: absolute;
+}
+
+.cs_coder_image{
+    position: absolute;
+    z-index: 4;
+    height: 30vh;
+    width: 30vw;
+    
+    background-repeat: no-repeat;
+}
