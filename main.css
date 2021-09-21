@@ -421,6 +421,15 @@ body{
     height: 70vh;
     width: 70vw;
     position: absolute;
+    background-image: url(blobsvgs/blob\ \(1\).svg);
+}
+
+@media (max-width:838px){
+    .cs_blob2{
+        height: 40vh;
+        width: 40vw;
+        background-repeat: no-repeat;
+    }
 }
 
 .cs_coder_image{
@@ -428,6 +437,16 @@ body{
     z-index: 4;
     height: 30vh;
     width: 30vw;
+    margin-top: 10%;
+    margin-left: 6%;
     
     background-repeat: no-repeat;
+}
+
+@media (max-width:838px){
+    .cs_coder_image{
+        margin-top: 0px;
+        height: 15vh;
+        width: 15vh;
+    }
 }
