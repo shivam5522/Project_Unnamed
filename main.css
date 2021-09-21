@@ -355,3 +355,61 @@ body{
      transform: scale(1.2);
      background-color: #a6c5c9; 
  }
+
+ .cs_outersect{
+     width: 100%;
+     height: 100vh;
+     background-color: #F1EBE4;
+ }
+
+ .cs_title{
+     width: 100%;
+     height: 50vh;
+     /* background-color: chocolate; */
+     font-size: 14vh;
+     text-align: right;
+     font-weight: bolder;
+     color: #245071;
+     position: relative;
+     text-align: center;
+
+ }
+
+ @media (max-width:838px) {
+     .cs_title,.name_cs{
+     font-size: 5vh;
+     text-align: center;
+     padding-right: 10vw;
+     }
+ }
+
+ .cs_blob1{
+     width: 25%;
+     height: 50vh;
+     margin-right: 10vw;
+     padding-top: 0vh;
+     position: absolute;
+     top: 0;
+     right: 0;
+     /* background-color: cornflowerblue; */
+     float: right;
+     background: url(blobsvgs/blob.svg);
+     overflow: hidden;
+     z-index: 0;
+     opacity: 0.6;
+     
+ }
+
+ @media (max-width:838px){
+     .cs_blob1{
+         height: 25vh;
+         background-repeat: no-repeat;
+     }
+ }
+
+
+ .name_cs {
+    z-index: 4;
+    position: absolute;
+    padding-left: 15vw;
+  }
