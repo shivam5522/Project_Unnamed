@@ -372,13 +372,6 @@ body{
 
  }
 
- @media (max-width:838px) {
-     .cs_title,.name_cs{
-     font-size: 5vh;
-     text-align: center;
-     padding-right: 10vw;
-     }
- }
 
  .cs_blob1{
      width: 25%;
@@ -398,13 +391,6 @@ body{
      
  }
 
- @media (max-width:838px){
-     .cs_blob1{
-         height: 40vh;
-         width: 40vw;
-         background-repeat: no-repeat;
-     }
- }
 
 
 .name_cs {
@@ -434,15 +420,6 @@ body{
     z-index: 0;
 }
 
-@media (max-width:838px){
-    .cs_blob2{
-        height: 70vh;
-        width: 70vw;
-        background-repeat: no-repeat;
-        margin-left: 10%;
-        opacity: 0.3;
-    }
-}
 
 .cs_coder_image{
     position: absolute;
@@ -455,13 +432,6 @@ body{
     background-repeat: no-repeat;
 }
 
-@media (max-width:838px){
-    .cs_coder_image{
-        margin-top: 0px;
-        height: 0vh;
-        width: 0vw;
-    }
-}
 
 .cs_text{
     z-index: 4;
@@ -477,30 +447,82 @@ body{
     color: #343F55;
 }
 
-@media (min-width:838px) and (max-width:1157px) {
-    .cs_text{
-    font-size: 2.5vh;
-    margin-top: 4vh;
+/* for mobile view */
+@media (max-width:768px) {
+    .cs_title{
+        font-size: 5vh;
+        margin-bottom: 0px;
+        height: 20vh;
+        text-align: center;
     }
-    .name_cs {
-        font-size: 12vh;
+    .name_cs{
+        padding-left: 0vh;
+    }
+    .cs_blob1{
+        width: 45%;
+    }
+    .cs_text{
+        font-size: 2.5vh;
+        margin-top: 0vh;
+        margin-left: 2vw;
+        width: 95%;
+        text-align: center;
+        font-weight: bolder;
     }
     
+    .main_section_image{
+        width: 100%;
+    }
+    .cs_blob2{
+        height: 900vh;
+        width: 90vw;
+        opacity: 0.5;
+    }
+
+    .cs_coder_image{
+        height: 50vh;
+        width: 100%;
+        opacity: 0.3;
+    }
 }
 
-@media (max-width:838px){
+@media screen and (min-width:769px) and (max-width:1281px) {
+    .cs_title{
+        font-size: 12vh;
+        margin-bottom: 0px;
+        height: 40vh;
+        text-align: center;
+        width: 100%;
+    }
     .name_cs{
-        font-size: 6vh;
-        margin-bottom: 0%;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        text-align: center;
+    }
+    .cs_blob1{
+        width: 45%;
     }
     .cs_text{
-        font-size: 1.5vh;
-        margin-top: 5vh;
-        margin-left: 5vw;
-        width: 90%;
+        font-size: 2.5vh;
+        margin-top: 0vh;
+        margin-left: 2vw;
+        width: 95%;
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    .main_section_image{
+        width: 100%;
+    }
+    .cs_blob2{
+        height: 50vh;
+        width: 90vw;
+        opacity: 0.5;
     }
 
-    .cs_title{
-        height: 20vh;
+    .cs_coder_image{
+        height: 80%;
+        width: 80%;
+        opacity: 0.3;
     }
 }
