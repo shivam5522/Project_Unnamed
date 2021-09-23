@@ -486,6 +486,7 @@ body{
     }
 }
 
+/* for tablet view */
 @media screen and (min-width:769px) and (max-width:1281px) {
     .cs_title{
         font-size: 12vh;
