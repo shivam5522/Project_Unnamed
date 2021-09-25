@@ -500,6 +500,7 @@ body{
         padding-left: 10vw;
         padding-right: 10vw;
         text-align: center;
+       font-size:11vh;
     }
     .cs_blob1{
         width: 45%;
@@ -818,7 +819,6 @@ body{
     }
     .name_extc{
         padding-left: 0vh;
-        font-size: 4vh;
     }
     .extc_blob1{
         width: 45%;
@@ -861,9 +861,8 @@ body{
         width: 100%;
     }
     .name_extc{
-        padding-left: 10vw;
-        padding-right: 10vw;
         text-align: center;
+        padding-right: 2%;
     }
     .extc_blob1{
         width: 45%;
