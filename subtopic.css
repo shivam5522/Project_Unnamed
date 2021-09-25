@@ -1,0 +1,55 @@
+*{ 
+    background-color: #f7b888;
+    
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Varela+Round&display=swap');
+h2{
+    padding: 2rem 0rem 3rem 0rem;
+    justify-content: center;
+    text-align: center;
+    color: #45526c;
+    font-size: 3rem;
+    border-bottom: 3px solid #45526c;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+h2 span {
+    color: #f8f5f1;
+}
+
+/* description  */
+
+.description{
+    display: flex;
+    padding: 2rem 1.5rem;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.information{
+    display: inline;
+    width: 40%;
+    margin: 0rem 1rem 0rem 5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight:700;
+    justify-content: center;
+    /* text-align: center; */
+    font-size: 18px;
+}
+.img{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    
+}
+.img img{
+
+    height: 45%;
+    border-radius: 2rem;
+    transition: 0.5s ;
+}
+
+.img img:hover{
+    transform: scale(1.1);
+}
