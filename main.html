@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Unnamed</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li> </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    <div class='container_landing'>
+        <div class='top_text'></div>
+        <div class='title_text_container'>
+            <div class='title_text'>Project Unnamed</div>
+        </div>
+        <div class='button_container'>
+            <div class="button">
+                <button class="click">What are you looking for?</button>
+                <br>
+                <div class="list">
+                    <button class="links"> 
+                        <a href="#cs" style="text-decoration: none;" id="linkclick"><i  style ="margin-right : 15px" class="fas fa-laptop-code">
+                            </i>Computer Science</a>
+                    </button>
+                    <button class="links">
+                        <a href="#it" style="text-decoration: none;" id="linkclick"> <i  style ="margin-right : 15px " class="fas fa-network-wired">
+                            </i>Information Tech</a>
+                    </button>
+                    <button class="links"><a href="#extc" style="text-decoration: none;" id="linkclick"><i  style ="margin-right : 15px " class="fas fa-microchip">
+                        </i>Electronics and Telecoms</a>
+                    </button>
+                </div>
+            </div>
+            <script>
+                let click = document.querySelector('.click');
+                let list = document.querySelector('.list');
+                click.addEventListener("click",()=>{
+                    list.classList.toggle('newlist');
+                });
+            </script>
+        </div>
+    </div>
+    </div>
+    <div class='cs_outersect'  id="cs">
+        <div class='cs_title'>
+            <div class='cs_blob1'></div>
+            <div class='name_cs'>Computer Science</div>
+        </div>
+        <div class='cs_main_section'>
+            <div class='main_section_image'>
+                <div class='cs_blob2'></div>
+                <img class="cs_coder_image" src='images/cssection.svg'>
+                <div class="cs_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis, odit impedit earum quaerat quibusdam velit sit est aspernatur in eos accusantium aperiam laudantium minima. Aspernatur inventore repellendus harum vel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab error autem est! Natus, minus. Ab explicabo delectus ducimus corrupti? Necessitatibus repudiandae doloremque consectetur ad! Deleniti rem dolores nihil tempora.
+                    <br>
+                    <a href="" class="btn">Explore Now </a>
+                </div>
+            </div>        
+        </div>    
+    </div>
+
+    <div class='it_outersect' id="it">
+        <div class='it_title'>
+            <div class='it_blob1'></div>
+            <div class='name_it'>Information Technology</div>
+        </div>
+        <div class='it_main_section' >
+            <div class='it_main_section_image'>
+                <div class='it_blob2'></div>
+                <img class="it_coder_image" src='images/itsection.svg'>
+                <div class="it_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis, odit impedit earum quaerat quibusdam velit sit est aspernatur in eos accusantium aperiam laudantium minima. Aspernatur inventore repellendus harum vel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab error autem est! Natus, minus. Ab explicabo delectus ducimus corrupti? Necessitatibus repudiandae doloremque consectetur ad! Deleniti rem dolores nihil tempora.
+                    <br>
+                    <a href="" class="btn">Explore Now </a>
+                </div>
+            </div>        
+        </div>        
+    </div>
+
+    <div class='extc_outersect' id="extc">
+        <div class='extc_title'>
+            <div class='extc_blob1'></div>
+            <div class='name_extc'>Electronics And Telecommunications</div>
+        </div>
+        <div class='extc_main_section' >
+            <div class='extc_main_section_image'>
+                <div class='extc_blob2'></div>
+                <!-- <img class="extc_coder_image" src='images/extcsection.svg'> -->
+                <div class="extc_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis, odit impedit earum quaerat quibusdam velit sit est aspernatur in eos accusantium aperiam laudantium minima. Aspernatur inventore repellendus harum vel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab error autem est! Natus, minus. Ab explicabo delectus ducimus corrupti? Necessitatibus repudiandae doloremque consectetur ad! Deleniti rem dolores nihil tempora.
+                    <br>
+                    <a href="" class="btn">Explore Now </a>
+                </div>
+            </div>        
+        </div>        
+    </div>
+
+
+</body>
