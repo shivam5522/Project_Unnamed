@@ -268,7 +268,7 @@ body{
     font-weight: bolder;
 }
 
-@media (max-width:1281px){
+@media (max-width:1024px){
     .title_text{
     font-size: 5vh;
     }
@@ -488,7 +488,7 @@ body{
 }
 
 /* for tablet view */
-@media screen and (min-width:769px) and (max-width:1281px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
     .cs_title{
         font-size: 12vh;
         margin-bottom: 0px;
@@ -670,7 +670,7 @@ body{
 }
 
 /* for tablet view */
-@media screen and (min-width:769px) and (max-width:1281px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
     .it_title{
         font-size: 9vh;
         margin-bottom: 0px;
@@ -852,7 +852,7 @@ body{
 }
 
 /* for tablet view */
-@media screen and (min-width:769px) and (max-width:1281px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
     .extc_title{
         font-size: 6vh;
         margin-bottom: 0px;
