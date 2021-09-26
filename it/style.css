@@ -105,3 +105,9 @@ section{
         height: 45rem;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .gallery .box-container{
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 20px;
+}
