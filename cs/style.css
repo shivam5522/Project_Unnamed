@@ -29,7 +29,7 @@ section{
     text-align: center;
     padding-bottom: 2rem;
     color:#45526c;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .heading span{
@@ -102,4 +102,9 @@ section{
         width: 42rem;
         height: 45rem;
     }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .gallery .box-container{
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 20px;
 }
