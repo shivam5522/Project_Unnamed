@@ -914,3 +914,93 @@ body{
 }
 
 
+/* css for footer */
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child{
+    height: 300px;
+    width: 25%;
+    /* background-color: gray; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    
+}
+
+.footer_child_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+ul{
+    margin-top: 40px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.first{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.social_container{
+    justify-content: space-between;
+    width: 60%;
+}
+.soc_icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.soc_icon:hover{
+    cursor: pointer;
+}
+
+.si1{
+    background-image: url('./images/facebook.png');
+
+}
+
+.si2{
+    background-image: url('./images/gmail.png');
+
+}
+
+.si3{
+    background-image: url('./images/linkedin.png');
+
+}
+
+.si4{
+    background-image: url('./images/instagram.png');
+
+}
+
