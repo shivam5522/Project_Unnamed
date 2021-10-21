@@ -11,3 +11,5 @@ Often lived in the shadows of Computer Engineering, Information engineering, als
 </br>
 [![electronicsandtelecommunication](images/electronicsandtelecommunication.svg)](https://shivam5522.github.io/Project_Unnamed/extc/index.html) </br>
 Electronics and Telecommunication Engineering deals with analog transmission, digital transmission, reception of video, voice and data, basic electronics, solid state devices, microprocessors, digital and analog communication, analog integrated circuits, satellite communication, semiconductors, antennae and wave progression. It also deals with the manufacturing of electronic devices, circuits, and communications equipment like transmitter, receiver, integrated circuits and fiber among others. Lately this field has expanded its use case in software development as well.</br>
+</br>
+### Our Team
