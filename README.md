@@ -16,5 +16,5 @@ Electronics and Telecommunication Engineering deals with analog transmission, di
 [![divijakinger](images/divija.svg)](https://github.com/divijakinger)
 [![kunalthakkar](images/kunal.svg)](https://github.com/shivam5522)
 [![shivamthakkar](images/shivam.svg)](https://github.com/kuchbhi-kunal)
-[![shubhjoshi](images/shubh.svg)](https://github.com/divijakinger)
+[![shubhjoshi](images/shubh.svg)](https://github.com/shubh1712)
 
